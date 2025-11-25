@@ -14,7 +14,7 @@ public class PostmanEchoApiTest {
         // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("тест") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body(testValue) // отправляемые данные (заголовки и query можно выставлять аналогично)
                 .contentType("text/plain; charset=UTF-8")
                 // Выполняемые действия
                 .when()
@@ -34,7 +34,7 @@ public class PostmanEchoApiTest {
         // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("test") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body(testValue) // отправляемые данные (заголовки и query можно выставлять аналогично)
                 // Выполняемые действия
                 .when()
                 .post("/post")
