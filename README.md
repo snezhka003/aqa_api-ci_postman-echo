@@ -1,3 +1,5 @@
+[![Java CI with Gradle](https://github.com/snezhka003/aqa_api-ci_postman-echo/actions/workflows/gradle.yml/badge.svg)](https://github.com/snezhka003/aqa_api-ci_postman-echo/actions/workflows/gradle.yml)
+
 ## Задача №3: Postman Echo
 
 **Важно**: эту задачу нужно выполнять в отдельном репозитории.
